@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   const handleGetUser = () => {
-    fetch("https://https://simple-project-test-api.herokuapp.com//getUser")
+    fetch("https://simple-project-test-api.herokuapp.com/getUser")
       .then((response) => response.json())
       .then((data) => console.log(data))
       .catch((err) => console.log(err));
